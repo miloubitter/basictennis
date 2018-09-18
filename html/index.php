@@ -28,16 +28,22 @@
                     <a class="nav-link active" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#">Tennislessen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="#">Tarieven</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Team</a>
+                    <a class="nav-link" href="#">Bespanservice</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Connect</a>
+                    <a class="nav-link" href="#">Privelessen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +65,7 @@
                     <h1 class="display-2">BASIC-Tennis</h1>
                     <h3>Voor een betere basis</h3>
                     <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
-                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
+                    <a href="https://tsoverhout.planmysport.com/portal/page/pmsportal30/TennisSquashOverhout/Tennis/Tennislessen" target="_blank" class="btn btn-primary btn-lg">INSCHRIJVEN</a>
                 </div>
             </div>
         </div>
@@ -70,7 +76,7 @@
                     <h1 class="display-2">BASIC-Tennis</h1>
                     <h3>Voor een betere basis</h3>
                     <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
-                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
+                    <a href="https://tsoverhout.planmysport.com/portal/page/pmsportal30/TennisSquashOverhout/Tennis/Tennislessen" target="_blank" class="btn btn-primary btn-lg">INSCHRIJVEN</a>
                 </div>
             </div>
         </div>
@@ -81,7 +87,7 @@
                     <h1 class="display-2">BASIC-Tennis</h1>
                     <h3>Voor een betere basis</h3>
                     <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
-                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
+                    <a href="https://tsoverhout.planmysport.com/portal/page/pmsportal30/TennisSquashOverhout/Tennis/Tennislessen" target="_blank" class="btn btn-primary btn-lg">INSCHRIJVEN</a>
                 </div>
             </div>
         </div>
