@@ -16,9 +16,9 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="../img/logo.png"></a>
+        <a class="navbar-brand" href="index.php"><img class="logo" src="img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,46 +45,54 @@
 </nav>
 
 <!--- Image Slider -->
-<div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-    </ul>
+<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/background.jpeg">
+            <img src="img/Banner.jpg">
             <div class="carousel-caption">
-                <div class="os-animation animated bounce">
-                    <h1 class="display-2">Bootstrap</h1>
-                    <h3>Complete Website Layout</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
-                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                <div class="os-animation animated zoomIn">
+                    <h1 class="display-2">BASIC-Tennis</h1>
+                    <h3>Voor een betere basis</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
+                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/background2.jpg">
+            <img src="img/Banner1.jpg">
             <div class="carousel-caption">
-                <div class="os-animation animated bounce">
-                    <h1 class="display-2">Bootstrap</h1>
-                    <h3>Complete Website Layout</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
-                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                <div class="os-animation animated zoomIn">
+                    <h1 class="display-2">BASIC-Tennis</h1>
+                    <h3>Voor een betere basis</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
+                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/background1.jpg">
+            <img src="img/Banner2.jpg">
             <div class="carousel-caption">
-                <div class="os-animation animated bounce">
-                    <h1 class="display-2">Bootstrap</h1>
-                    <h3>Complete Website Layout</h3>
-                    <button type="button" class="btn btn-outline-light btn-lg">VIEW DEMO</button>
-                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                <div class="os-animation animated zoomIn">
+                    <h1 class="display-2">BASIC-Tennis</h1>
+                    <h3>Voor een betere basis</h3>
+                    <button type="button" class="btn btn-outline-light btn-lg">Contact</button>
+                    <button type="button" class="btn btn-primary btn-lg">INSCHRIJVEN</button>
                 </div>
             </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
 
