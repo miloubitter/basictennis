@@ -1,10 +1,7 @@
 <?php
 
-namespace App\Controllers\Web;
+namespace App\Controllers;
 
-
-use App\Controllers\BaseController;
-//use Infrastructure\Authentication;
 
 class BasicController extends BaseController
 {

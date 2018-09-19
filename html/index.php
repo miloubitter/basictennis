@@ -1,14 +1,14 @@
 <?php
 
-use App\Controllers\Web\BasicController;
 //use App\Controllers\Web\LoginController;
+use App\Controllers\BasicController;
 use Dotenv\Dotenv;
 
 require __DIR__ . '/../vendor/autoload.php';
 
 session_start();
 
-$dotenv = new DotEnv(__DIR__ . '/app/');
+$dotenv = new DotEnv(__DIR__ . '/../');
 $dotenv->load();
 
 //set_exception_handler('Infrastructure\ErrorHandler::handleExceptions');
