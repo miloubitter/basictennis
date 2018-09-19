@@ -39,7 +39,7 @@
                     <a class="nav-link" href="#">Bespanservice</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Privelessen</a>
+                    <a class="nav-link" href="?route=privelessen">Privelessen</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Shop</a>

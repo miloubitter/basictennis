@@ -17,4 +17,16 @@ class BasicController extends BaseController
         $this->renderWebView('/Basic/home', $viewModel);
     }
 
+    public function showPrivelessen()
+
+    {
+        $viewModel = [
+            'pageTitle' => "Privelessen",
+            'errors' => $this->getErrors(),
+            'messages' => $this->getMessages(),
+        ];
+
+        $this->renderWebView('/Basic/privelessen', $viewModel);
+    }
+
 }

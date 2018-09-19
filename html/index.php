@@ -27,6 +27,10 @@ if($route == 'index') {
     $bookController = new BasicController();
     $bookController->index();
 }
+else if ($route == 'privelessen') {
+    $bookController = new BasicController();
+    $bookController->showPrivelessen();
+}
 
 
 
