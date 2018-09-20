@@ -21,7 +21,7 @@ class BasicController extends BaseController
 
     {
         $viewModel = [
-            'pageTitle' => "Privelessen",
+            'pageTitle' => "Privélessen",
             'errors' => $this->getErrors(),
             'messages' => $this->getMessages(),
         ];
