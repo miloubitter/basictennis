@@ -8,7 +8,7 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="img/Banner.jpg">
+            <img src="img/basis/Banner.jpg">
             <div class="carousel-caption">
                 <div class="os-animation animated zoomIn">
                     <h1 class="display-2">BASIC-Tennis</h1>
@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/Banner1.jpg">
+            <img src="img/basis/Banner1.jpg">
             <div class="carousel-caption">
                 <div class="os-animation animated zoomIn">
                     <h1 class="display-2">BASIC-Tennis</h1>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="img/Banner2.jpg">
+            <img src="img/basis/Banner2.jpg">
             <div class="carousel-caption">
                 <div class="os-animation animated zoomIn">
                     <h1 class="display-2">BASIC-Tennis</h1>
@@ -54,118 +54,122 @@
 <!--- Jumbotron -->
 <div class="container-fluid">
     <div class="row jumbotron">
-        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
-            <p class="lead text-left">Ook de professionals zijn ooit begonnen met de BASICS.</p>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-            <a href="#"><button class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+        <div class="col-12">
+            <p class="lead text-center">Ook de professionals zijn ooit begonnen met de BASICS.</p>
         </div>
     </div>
 </div>
 
-<!--- Welcome Section -->
+<!--- Intro gedeelte -->
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="display-4">Build with ease.</h1>
+            <h1 class="display-4">Verschillende lessoorten</h1>
         </div>
         <hr>
         <div class="col-12">
-            <p class="lead">Welcome to my Bootstrap 4 website tutorial! Bootstrap is a free and open-source front-end library with HTML and CSS based designs.</p>
+            <p class="lead">
+                Opzoek naar een leuke en gezellige tennisschool? Je bent dan bij BASIC-tennis aan het juiste adres.
+                Wij hebben professionele trainers die je de basis van het tennis met veel geduld en kennis kunnen bij brengen.
+                Tennis is een leuke sport, die wanneer je de basis goed onder de knie hebt alleen maar leuker wordt. Dus waarom nog wachten, schrijf je in.</p>
         </div>
     </div>
 </div>
 
-<!--- Three Column Section -->
-<div class="container-fluid padding">
-    <div class="row text-center padding">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-code"></i>
-            <h3>HTML5</h3>
-            <p>Built with the latest version of HTML, HTML5.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <i class="fas fa-bold"></i>
-            <h3>BOOTSTRAP</h3>
-            <p>Built with the latest version of Bootstrap, Bootstrap 4.</p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-            <i class="fab fa-css3"></i>
-            <h3>CSS3</h3>
-            <p>Built with the latest version of CSS, CSS3.</p>
+<!--Verschillende lessoorten-->
+    <div class="container-fluid padding">
+        <div class="row text-center">
+            <div class="col-sm-6 col-md-3">
+                <h3>Tenniskids (6-12jr)</h3>
+                <img class="gif" src="img/basis/tenniskids.jpg">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h3>Jeugdlessen (12-18jr)</h3>
+                <img class="gif" src="img/basis/jeugd.jpg">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h3>Volwassenen</h3>
+                <img class="gif" src="img/basis/volwassenen.jpg">
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <h3>Privelessen</h3>
+                <img class="gif" src="img/basis/priveles.jpg">
+            </div>
         </div>
     </div>
-    <hr class="my4">
+
+<!--- Jumbotron -->
+<div class="container-fluid">
+    <div class="row jumbotron bg-color text-center">
+        <div class="col-12">
+            <a href="https://tsoverhout.planmysport.com/portal/page/pmsportal30/TennisSquashOverhout/Tennis/Tennislessen" target="_blank"><button class="btn btn-primary btn-lg">INSCHRIJVEN</button></a>
+        </div>
+    </div>
 </div>
 
-<!--- Two Column Section -->
+<!--- Evenementen -->
 <div class="container-fluid padding">
     <div class="row padding">
-        <div class="col-lg-6">
-            <h2>If you build it...</h2>
-            <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
-            <p>Resize the browser window to see the effect. Responsive web design has become more important as the amount
-                of mobile traffic now accounts for more than half of total internet traffic.</p>
-            <p>It can also display the web page differently depending on the screen size or viewing device.</p>
-            <br />
-            <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Evenementen</h1>
+            </div>
+            <hr>
         </div>
-        <div class="col-lg-6">
-            <img src="img/desk.png" class="img-fluid">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/evenementen/lesserstoernooi.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Lesserstoernooi</h4>
+                    <a href="#" class="btn btn-primary">Inschrijven</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/evenementen/kidstennisles.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Jeugdlessen</h4>
+                    <a href="#" class="btn btn-primary">Inschrijven</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/evenementen/tennislessen.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Tennislessen / Lidmaatschappen</h4>
+                    <a href="https://tsoverhout.planmysport.com/portal/page/pmsportal30/TennisSquashOverhout" target="_blank" class="btn btn-primary">Inschrijven</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-<hr class="my-4">
 
 <!--- Fixed background -->
 <figure>
     <div class="fixed-wrap">
         <div id="fixed">
-
         </div>
     </div>
 </figure>
 
-
-<!--- Emoji Section -->
-<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun.</button>
-<div id="emoji" class="collapse ">
-    <div class="container-fluid padding">
-        <div class="row text-center">
-            <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/gif/panda.gif">
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/gif/poo.gif">
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/gif/unicorn.gif">
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <img class="gif" src="img/gif/chicken.gif">
-            </div>
-        </div>
-    </div>
-</div>
-
-<!--- Meet the team -->
+<!--- Teachers -->
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="display-4">Meet the Team</h1>
+            <h1 class="display-4">Onze leraren</h1>
         </div>
         <hr>
     </div>
 </div>
-
 
 <!--- Cards -->
 <div class="container-fluid padding">
     <div class="row padding">
         <div class="col-md-4">
             <div class="card">
-                <img class="card-img-top" src="img/Richard.jpg">
+                <img class="card-img-top" src="img/team/Richard.jpg">
                 <div class="card-body">
                     <h4 class="card-title">Richard Bitter</h4>
                     <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
@@ -175,7 +179,7 @@
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img class="card-img-top" src="img/Hans.jpg">
+                <img class="card-img-top" src="img/team/Hans.jpg">
                 <div class="card-body">
                     <h4 class="card-title">Hans Korporaal</h4>
                     <p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
@@ -186,7 +190,7 @@
 
         <div class="col-md-4">
             <div class="card">
-                <img class="card-img-top" src="img/Jesse.jpg">
+                <img class="card-img-top" src="img/team/Jesse.jpg">
                 <div class="card-body">
                     <h4 class="card-title">Jesse Bernardus</h4>
                     <p class="card-text">Phil is an developer with over 5 years of development experience.</p>
@@ -195,22 +199,25 @@
             </div>
         </div>
     </div>
+    <hr class="light-100">
 </div>
 
-<!--- Two Column Section -->
+<!--- Video instruction -->
 <div class="container-fluid padding">
     <div class="row padding">
-        <div class="col-lg-6">
-            <h2>Our Philosophy</h2>
-            <p>We know that greatness in a disruptive era requires bold ambition, curious talent and a culture that believes we're smarter together.</p>
-            <p>We approach every challenge holistically, with best-in-class expertise in data, creativity, media, technology, search, social and more. We call
-                this Alchemy. It has the power to build our clients' brands and transform their business. And while it may seem like magic, we've got it down to
-                a science.</p>
-            <br>
+        <div class="col-12 text-center">
+            <h2 class="display-4">Video instructions</h2>
         </div>
-        <div class="col-lg-6 ">
-            <img src="img/apple.png" class="img-fluid rounded">
+        <div class="col-lg-4">
+            <div class="embed-responsive embed-responsive-16by9 ">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/CXgfNBnetzQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
         </div>
+        <div class="col-lg-4 ">
+            <div class="embed-responsive embed-responsive-16by9 ">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1WruwNr8CJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>            </div>        </div>
+        <div class="col-lg-4 ">
+            <div class="embed-responsive embed-responsive-16by9 ">
+                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/9KRYA9ZlYmM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>            </div>        </div>
     </div>
-    <hr class="my-4">
 </div>

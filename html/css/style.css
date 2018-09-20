@@ -64,6 +64,9 @@ html, body {
     padding: 1rem;
     border-radius: 0;
 }
+.bg-color {
+    background-color: #ddf7b4;
+}
 
 /*Welcome*/
 .padding{
@@ -102,7 +105,8 @@ html, body {
     margin-bottom: 2rem;
 }
 .gif {
-    max-width: 100%;
+    max-width: 300px;
+    height: 200px !important;
 }
 
 /*Cards*/
@@ -242,7 +246,7 @@ figure {
     height: 100%;
 }
 #fixed {
-    background-image: url('../img/fixed.jpg');
+    background-image: url('../img/basis/park1.jpg');
     position: fixed;
     display: block;
     top: 0;
