@@ -17,6 +17,42 @@ class BasicController extends BaseController
         $this->renderWebView('/Basic/home', $viewModel);
     }
 
+    public function tennisKids()
+
+    {
+        $viewModel = [
+            'pageTitle' => "Tenniskids (6-12jr)",
+            'errors' => $this->getErrors(),
+            'messages' => $this->getMessages(),
+        ];
+
+        $this->renderWebView('/Lessoorten/tenniskids', $viewModel);
+    }
+
+    public function jeugdLessen()
+
+    {
+        $viewModel = [
+            'pageTitle' => "Jeugdlessen (12-18jr)",
+            'errors' => $this->getErrors(),
+            'messages' => $this->getMessages(),
+        ];
+
+        $this->renderWebView('/Lessoorten/jeugdlessen', $viewModel);
+    }
+
+    public function Volwassenen()
+
+    {
+        $viewModel = [
+            'pageTitle' => "Volwassenen",
+            'errors' => $this->getErrors(),
+            'messages' => $this->getMessages(),
+        ];
+
+        $this->renderWebView('/Lessoorten/volwassenen', $viewModel);
+    }
+
     public function Privelessen()
 
     {
@@ -26,7 +62,7 @@ class BasicController extends BaseController
             'messages' => $this->getMessages(),
         ];
 
-        $this->renderWebView('/Basic/privelessen', $viewModel);
+        $this->renderWebView('/Lessoorten/privelessen', $viewModel);
     }
 
     public function Tennislessen()

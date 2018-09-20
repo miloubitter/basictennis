@@ -83,6 +83,43 @@ html, body {
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
+/*hover*/
+.container {
+    position: relative;
+}
+
+.image {
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 82%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ddf7b4;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 /*Icons*/
 .fa-code {
@@ -97,6 +134,9 @@ html, body {
 .fa-code, .fa-bold, .fa-css3 {
     font-size: 4em;
     margin: 1rem;
+}
+.contact{
+    font-size: 2em;
 }
 
 /*Gif styles*/

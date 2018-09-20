@@ -27,6 +27,18 @@ if($route == 'index') {
     $bookController = new BasicController();
     $bookController->index();
 }
+else if ($route == 'tenniskids') {
+    $bookController = new BasicController();
+    $bookController->tennisKids();
+}
+else if ($route == 'jeugdlessen') {
+    $bookController = new BasicController();
+    $bookController->jeugdLessen();
+}
+else if ($route == 'volwassenen') {
+    $bookController = new BasicController();
+    $bookController->Volwassenen();
+}
 else if ($route == 'privelessen') {
     $bookController = new BasicController();
     $bookController->Privelessen();

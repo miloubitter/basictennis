@@ -78,25 +78,55 @@
 
 <!--Verschillende lessoorten-->
     <div class="container-fluid padding">
-        <div class="row text-center">
+        <div class="row text-left">
             <div class="col-sm-6 col-md-3">
                 <h3>Tenniskids (6-12jr)</h3>
-                <img class="gif" src="img/basis/tenniskids.jpg">
+                <div class="container">
+                        <img src="img/basis/tenniskids.jpg" alt="Avatar" class="image gif">
+                    <a href="?route=tenniskids">
+                        <div class="overlay">
+                            <div class="text">Deze lessen worden gegeven van maandag t/m vrijdag tussen 15.00 -19.00.</div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <h3>Jeugdlessen (12-18jr)</h3>
-                <img class="gif" src="img/basis/jeugd.jpg">
+                <div class="container">
+                    <img src="img/basis/jeugd.jpg" alt="Avatar" class="image gif">
+                    <a href="?route=jeugdlessen">
+                        <div class="overlay">
+                            <div class="text">Deze lessen worden gegeven van maandag t/m vrijdag tussen 15.00 -19.00.</div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <h3>Volwassenen</h3>
-                <img class="gif" src="img/basis/volwassenen.jpg">
+                <div class="container">
+                    <img src="img/basis/volwassenen.jpg" alt="Avatar" class="image gif">
+                    <a href="?route=volwassenen">
+                        <div class="overlay">
+                            <div class="text">Deze lessen worden gegeven van maandag t/m zaterdag van 09.00-23.00. </div>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="col-sm-6 col-md-3">
                 <h3>Privelessen</h3>
-                <img class="gif" src="img/basis/priveles.jpg">
+                <div class="container">
+                    <img src="img/basis/priveles.jpg" alt="Avatar" class="image gif">
+                    <a href="?route=privelessen">
+                        <div class="overlay">
+                            <div class="text">Deze lessen worden op afspraak gegeven. Maak een afspraak via de site of bel 06-53374786.</div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
+
+
 
 <!--- Jumbotron -->
 <div class="container-fluid">
@@ -158,7 +188,7 @@
 <div class="container-fluid padding">
     <div class="row welcome text-center">
         <div class="col-12">
-            <h1 class="display-4">Onze leraren</h1>
+            <h1 class="display-4">Ons trainers team</h1>
         </div>
         <hr>
     </div>
@@ -172,8 +202,18 @@
                 <img class="card-img-top" src="img/team/Richard.jpg">
                 <div class="card-body">
                     <h4 class="card-title">Richard Bitter</h4>
-                    <p class="card-text">John is an Internet entrepreneur with almost 20 years of experience.</p>
-                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    <p class="card-text">Mijn naam is Richard Bitter.
+                        Vanaf 1985 ben ik als tennistrainer werkzaam.
+                        Ik ben begonnen op Tennispark Overhout en daarna als clubtrainer van T.V. Kontakt.<br><br>
+                        Ik ben nu weer terug op het park waar ik ooit ben begonnen, maar nu met een eigen tennisschool BASIC-tennis.
+                        We zullen er dan ook alles aan doen oom het je zo goed mogelijk naar je zin te maken.<br><br>
+                        De lessen zullen hier ook gegeven worden met als doel, de basis van het tennis onder de knie te krijgen en dit alles in een ontspannen sfeer.<br><br>
+                        Ik zie je graag op de tennisbaan.</p>
+                    <div class="contact">
+                        <a href="https://www.facebook.com/richard.bitter.75"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/bitjebites"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/bitjebites/"><i class="fab fa-instagram"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -183,8 +223,11 @@
                 <div class="card-body">
                     <h4 class="card-title">Hans Korporaal</h4>
                     <p class="card-text">Mary is a designer with almost 10 years of digital design experience.</p>
-                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
-                </div>
+                    <div class="contact">
+                        <a href="https://www.facebook.com/hans.korporaal"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>                </div>
             </div>
         </div>
 
@@ -194,8 +237,11 @@
                 <div class="card-body">
                     <h4 class="card-title">Jesse Bernardus</h4>
                     <p class="card-text">Phil is an developer with over 5 years of development experience.</p>
-                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
-                </div>
+                    <div class="contact">
+                        <a href="https://www.facebook.com/jesse.bernardus.3"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>                </div>
             </div>
         </div>
     </div>
