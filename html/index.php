@@ -2,7 +2,8 @@
 
 //use App\Controllers\Web\LoginController;
 use App\Controllers\BasicController;
-use App\Controllers\LessoortenController;
+use App\Controllers\LesinfoController;
+use App\Controllers\TennislessenController;
 use App\Controllers\TarievenController;
 use Dotenv\Dotenv;
 
@@ -29,6 +30,37 @@ if($route == 'index') {
     $bookController = new BasicController();
     $bookController->index();
 }
+// ****** Tennislessen ******
+else if ($route == 'tenniskids') {
+    $bookController = new TennislessenController();
+    $bookController->tennisKids();
+}
+else if ($route == 'jeugdlessen') {
+    $bookController = new TennislessenController();
+    $bookController->jeugdLessen();
+}
+else if ($route == 'volwassenen') {
+    $bookController = new TennislessenController();
+    $bookController->Volwassenen();
+}
+else if ($route == 'privelessen') {
+    $bookController = new TennislessenController();
+    $bookController->Privelessen();
+}
+// ****** Lesinfo ******
+else if ($route == 'lesdatazomer') {
+    $bookController = new LesinfoController();
+    $bookController->lesdataZomer();
+}
+else if ($route == 'lesdatawinter') {
+    $bookController = new LesinfoController();
+    $bookController->lesdataWinter();
+}
+else if ($route == 'voorwaarden') {
+    $bookController = new LesinfoController();
+    $bookController->Voorwaarden();
+}
+
 // ****** Tarieven Zomer/ Winter ******
 
 else if ($route == 'tarievenZomer') {
@@ -39,6 +71,7 @@ else if ($route == 'tarievenWinter') {
     $bookController = new TarievenController();
     $bookController->tarievenWinter();
 }
+
 // ****** Overige navigatie opties ******
 else if ($route == 'bespanservice') {
     $bookController = new BasicController();
@@ -51,23 +84,6 @@ else if ($route == 'shop') {
 else if ($route == 'contact') {
     $bookController = new BasicController();
     $bookController->Contact();
-}
-// ****** Verschillende lessoorten ******
-else if ($route == 'tenniskids') {
-    $bookController = new LessoortenController();
-    $bookController->tennisKids();
-}
-else if ($route == 'jeugdlessen') {
-    $bookController = new LessoortenController();
-    $bookController->jeugdLessen();
-}
-else if ($route == 'volwassenen') {
-    $bookController = new LessoortenController();
-    $bookController->Volwassenen();
-}
-else if ($route == 'privelessen') {
-    $bookController = new LessoortenController();
-    $bookController->Privelessen();
 }
 
 

@@ -3,7 +3,7 @@
 namespace App\Controllers;
 
 
-class LessoortenController extends BaseController
+class TennislessenController extends BaseController
 {
     public function tennisKids()
 
@@ -14,7 +14,7 @@ class LessoortenController extends BaseController
             'messages' => $this->getMessages(),
         ];
 
-        $this->renderWebView('/Lessoorten/tenniskids', $viewModel);
+        $this->renderWebView('/Tennislessen/tenniskids', $viewModel);
     }
 
     public function jeugdLessen()
@@ -26,7 +26,7 @@ class LessoortenController extends BaseController
             'messages' => $this->getMessages(),
         ];
 
-        $this->renderWebView('/Lessoorten/jeugdlessen', $viewModel);
+        $this->renderWebView('/Tennislessen/jeugdlessen', $viewModel);
     }
 
     public function Volwassenen()
@@ -38,7 +38,7 @@ class LessoortenController extends BaseController
             'messages' => $this->getMessages(),
         ];
 
-        $this->renderWebView('/Lessoorten/volwassenen', $viewModel);
+        $this->renderWebView('/Tennislessen/volwassenen', $viewModel);
     }
 
     public function Privelessen()
@@ -50,6 +50,6 @@ class LessoortenController extends BaseController
             'messages' => $this->getMessages(),
         ];
 
-        $this->renderWebView('/Lessoorten/privelessen', $viewModel);
+        $this->renderWebView('/Tennislessen/privelessen', $viewModel);
     }
 }

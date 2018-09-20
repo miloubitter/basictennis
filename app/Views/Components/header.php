@@ -46,11 +46,11 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Lesinfo </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="?route=tarievenZomer">Lesdata winter</a>
+                        <a class="dropdown-item" href="?route=lesdatazomer">Lesdata Zomer</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="?route=tarievenWinter">Lesdata zomer</a>
+                        <a class="dropdown-item" href="?route=lesdatawinter">Lesdata Winter</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="?route=tarievenWinter">Voorwaarden</a>
+                        <a class="dropdown-item" href="?route=voorwaarden">Voorwaarden</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
