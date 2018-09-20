@@ -30,6 +30,7 @@ if($route == 'index') {
     $bookController = new BasicController();
     $bookController->index();
 }
+
 // ****** Tennislessen ******
 else if ($route == 'tenniskids') {
     $bookController = new TennislessenController();
@@ -47,6 +48,7 @@ else if ($route == 'privelessen') {
     $bookController = new TennislessenController();
     $bookController->Privelessen();
 }
+
 // ****** Lesinfo ******
 else if ($route == 'lesdatazomer') {
     $bookController = new LesinfoController();
@@ -62,7 +64,6 @@ else if ($route == 'voorwaarden') {
 }
 
 // ****** Tarieven Zomer/ Winter ******
-
 else if ($route == 'tarievenZomer') {
     $bookController = new TarievenController();
     $bookController->tarievenZomer();
@@ -85,10 +86,4 @@ else if ($route == 'contact') {
     $bookController = new BasicController();
     $bookController->Contact();
 }
-
-
-
-
-
-
 
