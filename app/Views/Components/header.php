@@ -30,22 +30,22 @@
                     <a class="nav-link active" href="?route=index">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tennislessen</a>
+                    <a class="nav-link" href="?route=tennislessen">Tennislessen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tarieven</a>
+                    <a class="nav-link" href="?route=tarieven">Tarieven</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?route=privelessen">Privelessen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bespanservice</a>
+                    <a class="nav-link" href="?route=bespanservice">Bespanservice</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
+                    <a class="nav-link" href="?route=shop">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="?route=contact">Contact</a>
                 </li>
             </ul>
         </div>

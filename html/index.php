@@ -29,7 +29,27 @@ if($route == 'index') {
 }
 else if ($route == 'privelessen') {
     $bookController = new BasicController();
-    $bookController->showPrivelessen();
+    $bookController->Privelessen();
+}
+else if ($route == 'tennislessen') {
+    $bookController = new BasicController();
+    $bookController->Tennislessen();
+}
+else if ($route == 'tarieven') {
+    $bookController = new BasicController();
+    $bookController->Tarieven();
+}
+else if ($route == 'bespanservice') {
+    $bookController = new BasicController();
+    $bookController->Bespanservice();
+}
+else if ($route == 'shop') {
+    $bookController = new BasicController();
+    $bookController->Shop();
+}
+else if ($route == 'contact') {
+    $bookController = new BasicController();
+    $bookController->Contact();
 }
 
 

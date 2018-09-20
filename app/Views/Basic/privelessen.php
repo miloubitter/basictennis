@@ -15,6 +15,7 @@
                 <p>Dus maak snel een afspraak en verbeter je zelf. <br>
                 Bel naar 06-53374786 of stuur een email naar: info@basic-tennis.nl </p>
         </div>
+<!-- Tabel met informatie-->
         <table class="table table-bordered">
             <thead>
             <tr>
@@ -46,9 +47,7 @@
             </tbody>
         </table>
     </div>
-
-
-
+<!-- Het formulier om in te vullen   -->
 <form>
     <div class="container">
         <div class="col-12 text-center">
@@ -103,7 +102,7 @@
         </div>
     </div>
 </form>
-
+<!--Voor de datetimepricker-->
 <link href="css/jquery.datetimepicker.css" rel="stylesheet"/>
 <script src="js/jquery.datetimepicker.full.js"></script>
 
