@@ -2,6 +2,8 @@
 
 //use App\Controllers\Web\LoginController;
 use App\Controllers\BasicController;
+use App\Controllers\LessoortenController;
+use App\Controllers\TarievenController;
 use Dotenv\Dotenv;
 
 require __DIR__ . '/../vendor/autoload.php';
@@ -27,30 +29,17 @@ if($route == 'index') {
     $bookController = new BasicController();
     $bookController->index();
 }
-else if ($route == 'tenniskids') {
-    $bookController = new BasicController();
-    $bookController->tennisKids();
+// ****** Tarieven Zomer/ Winter ******
+
+else if ($route == 'tarievenZomer') {
+    $bookController = new TarievenController();
+    $bookController->tarievenZomer();
 }
-else if ($route == 'jeugdlessen') {
-    $bookController = new BasicController();
-    $bookController->jeugdLessen();
+else if ($route == 'tarievenWinter') {
+    $bookController = new TarievenController();
+    $bookController->tarievenWinter();
 }
-else if ($route == 'volwassenen') {
-    $bookController = new BasicController();
-    $bookController->Volwassenen();
-}
-else if ($route == 'privelessen') {
-    $bookController = new BasicController();
-    $bookController->Privelessen();
-}
-else if ($route == 'tennislessen') {
-    $bookController = new BasicController();
-    $bookController->Tennislessen();
-}
-else if ($route == 'tarieven') {
-    $bookController = new BasicController();
-    $bookController->Tarieven();
-}
+// ****** Overige navigatie opties ******
 else if ($route == 'bespanservice') {
     $bookController = new BasicController();
     $bookController->Bespanservice();
@@ -62,6 +51,23 @@ else if ($route == 'shop') {
 else if ($route == 'contact') {
     $bookController = new BasicController();
     $bookController->Contact();
+}
+// ****** Verschillende lessoorten ******
+else if ($route == 'tenniskids') {
+    $bookController = new LessoortenController();
+    $bookController->tennisKids();
+}
+else if ($route == 'jeugdlessen') {
+    $bookController = new LessoortenController();
+    $bookController->jeugdLessen();
+}
+else if ($route == 'volwassenen') {
+    $bookController = new LessoortenController();
+    $bookController->Volwassenen();
+}
+else if ($route == 'privelessen') {
+    $bookController = new LessoortenController();
+    $bookController->Privelessen();
 }
 
 

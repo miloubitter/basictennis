@@ -126,8 +126,6 @@
         </div>
     </div>
 
-
-
 <!--- Jumbotron -->
 <div class="container-fluid">
     <div class="row jumbotron bg-color text-center">

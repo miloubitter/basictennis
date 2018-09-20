@@ -29,14 +29,38 @@
                 <li class="nav-item">
                     <a class="nav-link active" href="?route=index">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?route=tennislessen">Tennislessen</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tennislessen </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="?route=tenniskids">Tenniskids (6-12jr)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=jeugdlessen">Jeugdtennis (12-18jr)</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=volwassenen">Volwassenen</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=privelessen">Privélessen</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?route=tarieven">Tarieven</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lesinfo </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="?route=tarievenZomer">Lesdata winter</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=tarievenWinter">Lesdata zomer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=tarievenWinter">Voorwaarden</a>
+                    </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="?route=privelessen">Privelessen</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tarieven </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="?route=tarievenZomer">Tarieven Zomer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="?route=tarievenWinter">Tarieven Winter</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="?route=bespanservice">Bespanservice</a>
