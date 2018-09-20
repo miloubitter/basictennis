@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="?route=index">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tennislessen</a>
@@ -36,10 +36,10 @@
                     <a class="nav-link" href="#">Tarieven</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Bespanservice</a>
+                    <a class="nav-link" href="?route=privelessen">Privelessen</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="?route=privelessen">Privelessen</a>
+                    <a class="nav-link" href="#">Bespanservice</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Shop</a>

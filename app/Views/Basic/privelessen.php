@@ -77,16 +77,25 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <label for="telefoonnummer">Telefoonnummer</label>
-                <input type="text" class="form-control" placeholder="Telefoonnummer" required>
+                <label for="trainer">Trainer</label>
+                <select id="trainer" class="form-control" required>
+                    <option selected>Kies een trainer...</option>
+                    <option>Richard Bitter</option>
+                    <option>Hans Korporaal</option>
+                    <option>Jesse Bernardus</option>
+                </select>
             </div>
             <div class="col-md-6">
-                <label for="inputState">Soort privéles:</label>
-                <select id="inputState" class="form-control" required>
+                <label for="priveles">Soort privéles:</label>
+                <select id="priveles" class="form-control" required>
                     <option selected>Kies...</option>
                     <option>Heel lesuur (50min) - €55,00</option>
                     <option>Half lesuur (25min) - €27,50</option>
                 </select>
+            </div>
+            <div class="col">
+                <label for="telefoonnummer">Telefoonnummer</label>
+                <input type="text" class="form-control" placeholder="Telefoonnummer" required>
             </div>
         </div>
         <div class=" text-center">
